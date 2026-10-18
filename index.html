@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Géovisions : portfolio de veille en géovisualisation, 2026-2027.">
+<title>Portfolio — Cartographie & Géodataviz</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<header class="nav"><a class="logo" href="#accueil"><span class="logo-mark">◈</span> Portfolio<span class="dot">.</span></a>
+<nav aria-label="Navigation principale"><a href="#accueil">Accueil</a><a href="#explorations">Les cartes</a></nav>
+<button id="menuButton" class="menu-button" aria-label="Ouvrir le menu" aria-expanded="false">☰</button></header>
+<main>
+<section id="accueil" class="hero"><div class="hero-inner"><div class="eyebrow">CARNET DE VEILLE · 2026—2027</div><h1>Portfolio<br><em>cartographique.</em></h1><p>Chaque semaine, une carte qui attire mon attention. Quinze regards sur les façons de représenter, raconter et comprendre les territoires.</p><a class="btn primary" href="#explorations">Découvrir les cartes <span>↗</span></a><div class="hero-stats"><div><strong id="statCount">00</strong><small>CARTES DOCUMENTÉES</small></div><div><strong>15</strong><small>SEMAINES DE VEILLE</small></div><div><strong>12.02.2027</strong><small>DATE DE REMISE</small></div></div></div><div class="hero-art" aria-hidden="true"><div class="paper-map"><span>CARTE / 01—15</span><div class="contours"></div><b>Observer<br>le territoire.</b></div></div></section>
+<section id="explorations" class="section"><div class="section-heading"><div><span class="kicker">01 / COLLECTION</span><h2>Explorations<span class="dot">.</span></h2><p>Quinze cartes sélectionnées et commentées au fil du semestre.</p></div><span class="count" id="resultCount">0 réalisation</span></div>
+<div class="toolbar"><div class="filters" id="filters" role="group" aria-label="Filtrer les cartes"><button class="filter active" data-filter="Toutes" aria-pressed="true">Toutes</button><button class="filter" data-filter="Statique" aria-pressed="false">Statiques</button><button class="filter" data-filter="Interactive" aria-pressed="false">Interactives</button><button class="filter" data-filter="Animée" aria-pressed="false">Animées</button></div><label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Rechercher une carte…" aria-label="Rechercher une carte"></label></div>
+<div id="gallery" class="gallery" aria-live="polite"></div>
+</section>
+
+
+</main>
+<footer><span>Portfolio · Cartographie dynamique / Géodataviz</span><span>Master GeoNum · 2026–2027</span><a href="#accueil">Retour en haut ↑</a></footer>
+<dialog id="detailDialog" aria-labelledby="dialogTitle"><button id="closeDialog" class="close-dialog" aria-label="Fermer">×</button><div id="dialogContent"></div></dialog>
+</body></html>
