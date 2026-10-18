@@ -33,6 +33,22 @@ cartes[0] = {
   regard:"Apport et limites...", publie:true
 };
 */
+cartes[0] = {
+  id: 1,
+  semaine: 1,
+  titre: "Les déplacements dans le métro de New York",
+  categorie: "Interactive",
+  theme: "Transports et mobilités",
+  description: "Une géovisualisation des déplacements en métro à New York au fil de la journée.",
+  auteur: "Peter Atwood (Esri)",
+  source: "A Day on the New York City Subway ; article de Robby Deming sur Maps.com",
+  url: "https://storymaps.arcgis.com/stories/b1465b5130eb4ca99a647d0a515df142",
+  image: "images/metro-new-york.png",
+  fond: "J'ai choisi cette géovisualisation parce que je m'intéresse particulièrement au domaine des transports et aux déplacements des personnes dans les grandes villes. C'est donc le sujet de cette carte qui a attiré mon attention. Elle permet de comprendre comment les habitants de New York utilisent le métro au cours d'une journée, notamment les déplacements vers Manhattan le matin et vers les autres quartiers le soir. Je trouve intéressant de voir comment les données de transport peuvent montrer les habitudes de déplacement et le fonctionnement d'une grande ville.",
+  forme: "Cette réalisation utilise plusieurs représentations cartographiques, notamment des cartes de flux, des animations et des visualisations en 3D. Les déplacements sont représentés à différents moments de la journée, ce qui permet de comparer les situations. J'ai particulièrement apprécié le côté interactif, car on peut explorer certaines stations et consulter des informations sur leur fréquentation. La visualisation rend des données assez complexes plus faciles à comprendre.",
+  regard: "Les flux représentés donnent une vue d'ensemble intéressante, mais la quantité de lignes peut rendre certains déplacements difficiles à distinguer.",
+  publie: true
+};
 const gallery=document.querySelector("#gallery");
 const resultCount=document.querySelector("#resultCount");
 const statCount=document.querySelector("#statCount");
